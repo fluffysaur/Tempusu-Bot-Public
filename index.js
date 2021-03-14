@@ -21,7 +21,7 @@ const pool = mysql.createPool({
 
 const API_TOKEN = process.env.API_TOKEN || '';
 const DEV_ID = process.env.DEV_ID || '';
-const URL = process.env.URL || 'https://tempusu-bot.herokuapp.com/';
+const URL = process.env.URL || 'localhost';
 const PORT = process.env.PORT || 3000;
 
 const bot = new Telegraf(API_TOKEN);
