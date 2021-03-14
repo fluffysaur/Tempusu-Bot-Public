@@ -1,0 +1,20 @@
+{
+  "name": "TempusuBot",
+  "version": "1.0.0",
+  "description": "Scheduled reminders for your group chats to take your temperature and avoid getting expelled!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tan Yi Jia",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-schedule": "^1.3.2",
+    "telegraf": "^3.36.0",
+    "telegraf-inline-menu": "^4.0.0"
+  }
+}
